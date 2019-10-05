@@ -1,9 +1,29 @@
 body{
 	background-color: #DEDEDE;
 }
+/*Comentário*/
 h1, h2{
 	text-align: center;
 }
 p, h1, h2{
 	font-family: verdana;
+}
+#logo{
+	top: 0;
+	position: fixed;
+	width: 80%;
+	height: 10%;
+}
+#content{
+	width: 80%;
+	margin-top: 70px;
+}
+#footer{
+	bottom: 5px;
+	margin: 0;
+	position: fixed;
+	background-color: #3E3E3E;
+	color: #FFFFFF;
+	padding: 10px 20px 30px 40px;
+
 }
